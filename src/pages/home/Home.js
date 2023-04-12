@@ -3,8 +3,12 @@ import Topbar from "../../components/topbar/topbar";
 function Home() {
   return (
     <div>
-     
-      <Topbar />
+     <Topbar />
+      <div className="homecontainer">
+
+      </div>
+    
+    
     </div>
   );
 }
