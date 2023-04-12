@@ -4,8 +4,8 @@ import './rightbar.css';
 class Rightbar extends Component {
     render() {
         return(
-            <div className="rightbar">
-                
+            <div className="rightbarcontainer">
+                right
             </div>
         )
     }
