@@ -1,5 +1,6 @@
 import  React, { Component } from 'react';
 import './feed.css';
+import Post from '../post/Post';
 import Share from '../share/share';
 class Feed extends Component {
     render() {
@@ -7,6 +8,7 @@ class Feed extends Component {
             <div className="feedcontainer">
                 <div className="feedwrapper">
                     <Share />
+                    <Post />
                 </div>
             </div>
         )
