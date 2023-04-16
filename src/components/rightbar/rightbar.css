@@ -43,10 +43,15 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
 }
 
-.rightbarFriendList{
+.rightbarFriend{
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 15px;
 }
@@ -56,7 +61,11 @@
     font-weight: 500;
     margin-left: 10px;
 }
-
+.rightbarProfileImgContainer{
+    position: relative;
+    width: fit-content;
+    flex-direction: row;
+}
 
 
 .rightbarProfileImg{
@@ -64,4 +73,15 @@
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.rightbarOnline{
+    width: 10px;
+    height: 10px;
+    background-color: #4bcb1f;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2px;
+    right: 25px;
 }

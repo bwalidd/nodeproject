@@ -22,6 +22,34 @@ class Rightbar extends Component {
                                 </div>
                                 <span className="profilename"> Anna lora</span>
                             </li>
+                            <li className="rightbarFriend">
+                                <div className="rightbarProfileImgContainer">
+                                    <img className="rightbarProfileImg" src="/assets/person/3.jpeg" alt="" />
+                                    <span className="rightbarOnline"></span>
+                                </div>
+                                <span className="profilename"> Anna lora</span>
+                            </li>
+                            <li className="rightbarFriend">
+                                <div className="rightbarProfileImgContainer">
+                                    <img className="rightbarProfileImg" src="/assets/person/3.jpeg" alt="" />
+                                    <span className="rightbarOnline"></span>
+                                </div>
+                                <span className="profilename"> Anna lora</span>
+                            </li>
+                            <li className="rightbarFriend">
+                                <div className="rightbarProfileImgContainer">
+                                    <img className="rightbarProfileImg" src="/assets/person/3.jpeg" alt="" />
+                                    <span className="rightbarOnline"></span>
+                                </div>
+                                <span className="profilename"> Anna lora</span>
+                            </li>
+                            <li className="rightbarFriend">
+                                <div className="rightbarProfileImgContainer">
+                                    <img className="rightbarProfileImg" src="/assets/person/3.jpeg" alt="" />
+                                    <span className="rightbarOnline"></span>
+                                </div>
+                                <span className="profilename"> Anna lora</span>
+                            </li>
                         </ul>
                 </div>
             </div>
